@@ -10,11 +10,18 @@ on:
 jobs:
 
    #This is name of first job
-   #This is github runner, each jobs needs a runner
+   #This is github runner, each jobs needs a runner 
    greet:
 
       runs-on: ubuntu-latest
       steps:
         name: say hello to users
         run : echo "hello dosto"
+
+   details:
+     runs-on: ubuntu-latest
+     steps:
+       name: show version of kernel
+       kernel: uname -a
+ 
         
