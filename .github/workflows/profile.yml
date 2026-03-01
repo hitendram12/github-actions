@@ -1,5 +1,5 @@
 #This is workflow name
-Name : hello
+name : hello
 
 #runs on trigger
 on:
