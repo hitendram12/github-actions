@@ -15,13 +15,13 @@ jobs:
 
       runs-on: ubuntu-latest
       steps:
-        name: say hello to users
-        run : echo "hello dosto"
+        - name: Say Hello
+          run : echo "hello dosto"
 
    details:
      runs-on: ubuntu-latest
      steps:
-       name: show version of kernel
-       kernel: uname -a
+       - name: show version of kernel
+         kernel: uname -a
  
         
