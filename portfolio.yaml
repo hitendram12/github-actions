@@ -1,0 +1,27 @@
+name: portfolio
+
+on:
+    push:
+          branches:
+
+jobs: 
+    deploy:
+          runs on: ubuntu-latest
+
+          environment:
+            name: github-pages
+            url: ${{steps.deployment.output }}
+
+          steps:
+            #get access to your portfolio code via prebuild options
+            - name: Checkout Code
+              uses: actions/checkour@v4
+              
+            #setup github pages  
+            - name: Setupop configure pages
+              uses: actions/configured-pages@v4 
+
+            # static code artifacts
+            - name: Upload static files
+              uses: actions/upload-pages-artifact@v4
+
