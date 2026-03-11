@@ -6,16 +6,18 @@ on:
 permissions:
     pages: write
     id-token: write
+    contents: read
 
 jobs:    
     deploy: 
-        runs on: ubuntu-latest
+        runs-on: ubuntu-latest
 
         environment: 
             name: github-pages
             url: ${{steps.deployment.outputs.page.url}}
 
-    steps: 
+    steps:
+         
         # get access to your portfolio code via pre-buit actions
         - name: Checkout code
           uses: actions/checkout@v4
