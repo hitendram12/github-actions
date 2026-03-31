@@ -1,113 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DevOps Zero To Hero</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitendra Mahajan | SRE Lead</title>
 
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #333;
+        }
 
-body{
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);
-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
-color:#e0e0e0
-}
+        header {
+            background: #1e2a38;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
 
-.container{text-align:center;padding:2rem;max-width:640px}
+        header h1 {
+            margin: 0;
+        }
 
-h1{
-font-size:2.5rem;
-background:linear-gradient(90deg,#00d2ff,#7b2ff7);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-margin-bottom:.5rem
-}
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 20px auto;
+        }
 
-.badge{
-display:inline-block;
-margin:1rem 0;
-padding:.4rem 1.2rem;
-border:1px solid #7b2ff7;
-border-radius:999px;
-font-size:.9rem;
-color:#c4b5fd
-}
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+        }
 
-.pipeline{
-margin-bottom:1.5rem;
-font-size:.9rem;
-color:#9ca3af
-}
+        h2 {
+            border-left: 4px solid #007bff;
+            padding-left: 10px;
+            color: #1e2a38;
+        }
 
-.cards{
-display:flex;
-gap:1rem;
-justify-content:center;
-flex-wrap:wrap
-}
+        ul {
+            padding-left: 20px;
+        }
 
-.card{
-background:rgba(255,255,255,.06);
-border:1px solid rgba(255,255,255,.1);
-border-radius:12px;
-padding:1.4rem;
-min-width:150px
-}
+        .skills span {
+            display: inline-block;
+            background: #e3ecff;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
 
-.card span{
-display:block;
-font-size:.7rem;
-color:#9ca3af;
-margin-bottom:.4rem;
-letter-spacing:.1em
-}
+        .highlight {
+            background: #d1ffd6;
+            font-weight: bold;
+        }
 
-.card strong{
-font-size:1.2rem;
-color:#f9fafb
-}
-</style>
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #1e2a38;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
 
+<header>
+    <h1>Hitendra Mahajan</h1>
+    <p>SRE | Senior Systems Engineer | DevOps Specialist</p>
+    <p>Mumbai | 9096103474 | hitendram12@gmail.com</p>
+</header>
+
 <div class="container">
 
-<h1>DevOps Zero To Hero [DevSecOps Live]</h1>
-<div class="badge">Josh Batch 10 (USA Edition BOOOM)</div>
+    <div class="card">
+        <h2>Professional Summary</h2>
+        <p>
+            Senior Systems Engineer with 8+ years of experience in Linux infrastructure, DevOps, 
+            and Site Reliability Engineering. Expertise in CI/CD, automation, cloud platforms, 
+            and large-scale production systems. Proven ability to lead teams and deliver 
+            scalable, highly available solutions.
+        </p>
+    </div>
 
-<div class="pipeline">
-Built • Tested • Linted • Deployed via GitHub Actions
+    <div class="card">
+        <h2>Core Skills</h2>
+        <div class="skills">
+            <span class="highlight">Kubernetes</span>
+            <span class="highlight">Terraform</span>
+            <span class="highlight">Ansible</span>
+            <span>Docker</span>
+            <span>Jenkins</span>
+            <span>NGINX</span>
+            <span>MySQL</span>
+            <span>MongoDB</span>
+            <span>AWS (EC2, S3, Route53)</span>
+            <span>Prometheus</span>
+            <span>Grafana</span>
+            <span>Zabbix</span>
+            <span>Bash Scripting</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Professional Experience</h2>
+
+        <h3>Samco Securities Pvt. Ltd. (2019 - Present)</h3>
+        <ul>
+            <li>Leading SRE and DevOps operations for production systems.</li>
+            <li>Designed and managed Kubernetes clusters (master & worker nodes).</li>
+            <li class="highlight">Implemented Infrastructure as Code using Terraform.</li>
+            <li class="highlight">Automated deployments and configuration using Ansible.</li>
+            <li>Built CI/CD pipelines using Jenkins (Freestyle & Declarative).</li>
+            <li>Configured Docker environments for developers and applications.</li>
+            <li>Managed MySQL replication (GTID) and MongoDB sharding.</li>
+            <li>Implemented load balancing using NGINX and HAProxy.</li>
+            <li>Handled SSL automation using Let's Encrypt.</li>
+            <li>Monitoring setup using Prometheus, Grafana, Zabbix.</li>
+            <li>Worked on production debugging, scaling, and high availability systems.</li>
+        </ul>
+
+        <h3>Mazeweb Technologies (2018 - 2019)</h3>
+        <ul>
+            <li>Linux server setup and configuration (Apache, MySQL, PHP).</li>
+            <li>Managed mail servers and email relay systems.</li>
+            <li>VM migration and virtualization using SolusVM.</li>
+        </ul>
+
+        <h3>Unotech Software Pvt. Ltd. (2016 - 2018)</h3>
+        <ul>
+            <li>Managed Linux servers and databases (PostgreSQL, MongoDB).</li>
+            <li>Handled replication and database backup strategies.</li>
+            <li>Performed OS hardening and kernel upgrades.</li>
+        </ul>
+
+        <h3>Earlier Experience (2012 - 2016)</h3>
+        <ul>
+            <li>Worked as Technical Support Engineer (Linux & Windows).</li>
+            <li>Managed hosting environments and troubleshooting.</li>
+        </ul>
+
+    </div>
+
+    <div class="card">
+        <h2>Key Achievements</h2>
+        <ul>
+            <li>Successfully migrated multiple applications to Kubernetes.</li>
+            <li>Reduced deployment time using CI/CD automation.</li>
+            <li>Improved system reliability and uptime through monitoring and alerting.</li>
+            <li>Automated infrastructure provisioning using Terraform.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Education</h2>
+        <ul>
+            <li>BCA - YCMOU University</li>
+            <li>HSC - Science</li>
+            <li>SSC - State Board</li>
+        </ul>
+    </div>
+
 </div>
 
-<div class="cards">
-<div class="card">
-<span>Framework</span>
-<strong>Flask 3.1</strong>
-</div>
-
-<div class="card">
-<span>Runtime</span>
-<strong>Python 3.14</strong>
-</div>
-
-<div class="card">
-<span>Deploy</span>
-<strong>AWS ECS</strong>
-</div>
-
-<div class="card">
-<span>CI/CD</span>
-<strong>GitHub Actions</strong>
-</div>
-</div>
-
-</div>
+<footer>
+    <p>© 2026 Hitendra Mahajan | SRE Portfolio</p>
+</footer>
 
 </body>
 </html>
